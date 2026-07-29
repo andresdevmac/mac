@@ -4,7 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "TiendaMac | Reparación de tecnología",
   description: "Servicio técnico especializado en Apple y tecnología: diagnóstico, reparación y seguimiento de equipos.",
-  robots: { index: true, follow: true }
+  robots: { index: true, follow: true },
+  other: {
+    "google-site-verification": "Qwem9rO4YvzZPeLBowApiGlAThyYIhnoILpBfW4w67I"
+  }
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
