@@ -1,21 +1,54 @@
-# TiendaMac web
+# TiendaMac Web
 
-Sitio comercial de TiendaMac, creado con Next.js, TypeScript y Tailwind CSS.
+Sitio comercial y de presentación para TiendaMac, desarrollado con Next.js y React. El proyecto está pensado para mostrar servicios técnicos, precios, información institucional y herramientas de contacto de forma clara, moderna y profesional.
 
-## Inicio rápido
+## ✨ Características
 
-1. Instala Node.js 20 o superior.
-2. Copia `.env.example` a `.env.local` y completa las redes y el enlace de Maps.
-3. Ejecuta `npm install`.
-4. Ejecuta `npm run dev`.
+- Diseño limpio y orientado a conversión para negocio técnico
+- Secciones para servicios, precios, nosotros y contacto
+- Estructura modular y fácil de mantener
+- Datos editables desde archivos centralizados
+- Preparado para desplegarse como sitio comercial moderno
 
-Abre `http://localhost:3000`.
+## 🛠️ Tecnologías
 
-## Contenido editable
+- Next.js
+- React
+- TypeScript
+- CSS moderno con enfoque visual personalizado
+
+## 📁 Estructura del proyecto
+
+- `src/app/` — páginas principales del sitio
+- `src/components/` — componentes reutilizables
+- `src/data/` — contenido editable: precios, servicios y datos del negocio
+- `docs/` — documentación y especificaciones de diseño
+
+## ▶️ Inicio rápido
+
+1. Asegúrate de tener Node.js 20 o superior instalado.
+2. Copia `.env.example` a `.env.local` y completa los valores necesarios.
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+5. Abre tu navegador en `http://localhost:3000`.
+
+## ✏️ Contenido editable
 
 - Precios y servicios: `src/data/pricing.ts`
 - Datos del negocio: `src/data/business.ts`
 - Página principal: `src/app/page.tsx`
 - Especificación de diseño: `docs/UX-UI-SPEC.md`
 
-Antes de publicar, reemplaza los valores marcados como `PENDIENTE` y revisa cada precio contra el tarifario vigente.
+## 🚀 Recomendaciones de publicación
+
+Antes de publicar, revisa los datos sensibles o pendientes, reemplaza los valores marcados como `PENDIENTE` y verifica que todos los precios estén alineados con el tarifario vigente.
+
+## 📌 Nota
+
+Este proyecto está orientado a servir como una base sólida para una presencia digital profesional, clara y confiable para el negocio.
