@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" rx="36" fill="#07111F"/>
+  <rect x="44" y="44" width="1112" height="542" rx="28" fill="#0E1D33" stroke="#2D6CDF" stroke-width="2"/>
+  <circle cx="300" cy="316" r="140" fill="#2D6CDF" opacity="0.25"/>
+  <circle cx="900" cy="260" r="120" fill="#00B8D9" opacity="0.18"/>
+  <path d="M358 230h184c44 0 80 36 80 80v62c0 44-36 80-80 80H358c-44 0-80-36-80-80v-62c0-44 36-80 80-80Z" fill="#F5F7FA"/>
+  <rect x="390" y="260" width="120" height="88" rx="18" fill="#07111F"/>
+  <path d="M420 310h60" stroke="#F5F7FA" stroke-width="12" stroke-linecap="round"/>
+  <path d="M412 272h76" stroke="#2D6CDF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M410 336h80" stroke="#2D6CDF" stroke-width="10" stroke-linecap="round"/>
+  <rect x="610" y="236" width="220" height="22" rx="11" fill="#2D6CDF"/>
+  <rect x="610" y="278" width="180" height="18" rx="9" fill="#6EE7F9" opacity="0.9"/>
+  <rect x="610" y="316" width="200" height="18" rx="9" fill="#C7D2FE" opacity="0.85"/>
+  <rect x="610" y="354" width="135" height="18" rx="9" fill="#C7D2FE" opacity="0.85"/>
+  <text x="180" y="492" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">TiendaMac</text>
+  <text x="180" y="542" fill="#8FB3FF" font-family="Arial, Helvetica, sans-serif" font-size="28">Reparación de tecnología, Apple y más</text>
+</svg>

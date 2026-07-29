@@ -2,9 +2,31 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tienda-mac.com"),
   title: "TiendaMac | Reparación de tecnología",
   description: "Servicio técnico especializado en Apple y tecnología: diagnóstico, reparación y seguimiento de equipos.",
   robots: { index: true, follow: true },
+  openGraph: {
+    title: "TiendaMac | Reparación de tecnología",
+    description: "Reparamos equipos Apple y tecnología con diagnóstico claro, garantía y seguimiento profesional.",
+    url: "/",
+    siteName: "TiendaMac",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "TiendaMac - Reparación de tecnología"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TiendaMac | Reparación de tecnología",
+    description: "Reparamos equipos Apple y tecnología con diagnóstico claro, garantía y seguimiento profesional.",
+    images: ["/og-image.svg"]
+  },
   other: {
     "google-site-verification": "Qwem9rO4YvzZPeLBowApiGlAThyYIhnoILpBfW4w67I"
   }
